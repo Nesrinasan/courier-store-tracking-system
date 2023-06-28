@@ -72,23 +72,4 @@ public class KafkaConfiguration {
 	public KafkaTemplate<String, Object> kafkaTemplate() {
 		return new KafkaTemplate<>(producerFactory());
 	}
-//
-////
-//	@Bean
-//	public NewTopic compactTopicExample() {
-//		return TopicBuilder.name("courierTopic")
-//				.partitions(1)
-//				.replicas(1)
-//				.compact()
-//				.build();
-//	}
-
-//	@Bean
-//	public KafkaAdmin kafkaAdmin() {
-//		Map<String, Object> configs = new HashMap<>();
-//		// Depending on you Kafka Cluster setup you need to configure
-//		// additional properties!
-//		configs.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
-//		return new KafkaAdmin(configs);
-//	}
 }

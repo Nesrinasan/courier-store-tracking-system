@@ -35,12 +35,10 @@ public class RedisConfiguration {
 
 	@Bean
 	public LettuceConnectionFactory redisConnectionFactory() {
-		return new LettuceConnectionFactory(openshiftRedisConnection());
-//		else
-//			return new LettuceConnectionFactory(localRedisConnection());
+		return new LettuceConnectionFactory(redisConnection());
 	}
 
-	private RedisStandaloneConfiguration openshiftRedisConnection() {
+	private RedisStandaloneConfiguration redisConnection() {
 		RedisStandaloneConfiguration configuration = new RedisStandaloneConfiguration(redisServerAddress, redisServerPort);
 
 		return configuration;
