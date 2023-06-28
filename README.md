@@ -36,3 +36,4 @@ if courier is not in Redis so the courier info is logging with store info. other
 * Association/Junction Table Design Pattern
 * Annotation-Based Functional Interfaces
 * Singleton Pattern via Spring annotations. (@Service, @Component)
+* Immutable Data Class Pattern (via 'Record Class') 
