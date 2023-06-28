@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.asan.couirertracking.integrationtest.CourierStoreControllerTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.asan.couirertracking.integrationtest.CourierStoreControllerTest
-com.asan.couirertracking.integrationtest.CourierStoreControllerTest  Time elapsed: 0 s  <<< ERROR!
-java.lang.IllegalStateException: Configuration error: found multiple declarations of @BootstrapWith for test class [com.asan.couirertracking.integrationtest.CourierStoreControllerTest]: [@org.springframework.test.context.BootstrapWith(value=org.springframework.boot.test.context.SpringBootTestContextBootstrapper.class), @org.springframework.test.context.BootstrapWith(value=org.springframework.boot.test.autoconfigure.data.r2dbc.DataR2dbcTestContextBootstrapper.class)]
-

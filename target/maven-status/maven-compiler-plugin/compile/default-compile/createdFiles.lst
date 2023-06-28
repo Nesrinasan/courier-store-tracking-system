@@ -17,10 +17,10 @@ com/asan/couirertracking/configuration/KafkaConfiguration.class
 com/asan/couirertracking/utility/StoresUtil$1.class
 com/asan/couirertracking/utility/StoresUtil.class
 com/asan/couirertracking/dto/modeldto/LocationDto.class
-com/asan/couirertracking/dto/modeldto/CourierStoreSaveRequestDto.class
 com/asan/couirertracking/model/CourierStoreLog.class
 com/asan/couirertracking/exception/StoreException.class
 com/asan/couirertracking/controller/CourierController.class
+com/asan/couirertracking/dto/requestdto/CourierStoreSaveRequestDto.class
 com/asan/couirertracking/utility/CalculateUtil.class
 com/asan/couirertracking/service/CourierService.class
 com/asan/couirertracking/repository/CourierReactiveStoreRepository.class

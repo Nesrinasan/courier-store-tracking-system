@@ -6,12 +6,12 @@
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/manager/RedisManager.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/model/CourierStoreLog.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/configuration/RedisConfiguration.java
+/Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/dto/requestdto/CourierStoreSaveRequestDto.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/configuration/GeneralConfig.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/controller/CourierStoreController.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/CouirerTrackingApplication.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/service/CourierService.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/controller/CourierController.java
-/Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/dto/modeldto/CourierStoreSaveRequestDto.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/repository/CourierReactiveStoreRepository.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/exception/StoreException.java
 /Users/nesrinasan/Downloads/couirer-tracking/src/main/java/com/asan/couirertracking/configuration/KafkaConfiguration.java

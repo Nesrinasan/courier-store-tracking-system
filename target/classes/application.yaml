@@ -8,7 +8,7 @@ redis:
 
 spring:
   r2dbc:
-    url: r2dbc:h2:mem://./migros
+    url: r2dbc:h2:mem://./mgrs
     username: sa
     password: pass
     pool:
