@@ -55,7 +55,7 @@ public class CourierStoreService {
 		return StoresUtil.storeDtoList.stream()
 				.anyMatch(storeDtoInner -> {
 					double calculateDistance = CalculateUtil.calculateDistance(couirerLocationDto.lat(), couirerLocationDto.lng(), storeDtoInner.locationDto().lat(), storeDtoInner.locationDto().lng());
-					if (calculateDistance <= 1000) {
+					if (calculateDistance <= 100) {
 						storeName.set(storeDtoInner.name());
 						return true;
 					}
