@@ -1,0 +1,37 @@
+ [
+  {
+    "name": "Ataşehir Market",
+    "locationDto": {
+    "lat": 40.9923307,
+    "lng": 29.1244229
+    }
+  },
+  {
+    "name": "Novada Market",
+    "locationDto": {
+    "lat": 40.986106,
+    "lng": 29.1161293
+    }
+  },
+  {
+    "name": "Beylikdüzü Market",
+    "locationDto": {
+    "lat": 41.0066851,
+    "lng": 28.6552262
+    }
+  },
+  {
+    "name": "Ortaköy Market",
+    "locationDto": {
+    "lat": 41.055783,
+    "lng": 29.0210292
+    }
+  },
+  {
+    "name": "Caddebostan Market",
+    "locationDto": {
+    "lat": 40.9632463,
+    "lng": 29.0630908
+    }
+  }
+]

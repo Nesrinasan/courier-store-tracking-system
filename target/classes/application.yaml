@@ -1,0 +1,30 @@
+redis:
+  courier-arround-store:
+    ttl: 60
+  server:
+    address: 127.0.0.1
+    port: 6379
+    password: ${REDIS_PASSWORD:redispass86}
+
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem://./migros
+    username: sa
+    password: pass
+    pool:
+      initial-size: 5
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        show_sql: true
+        hbm2ddl:
+          auto: update
+    hibernate:
+      ddl-auto: create
+      show_sql: true
+
+kafka:
+  bootstrap-servers: localhost:9092
+  topic: courierTopic
+  groupId: courier-store-id
