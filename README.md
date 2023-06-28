@@ -37,3 +37,17 @@ if courier is not in Redis so the courier info is logging with store info. other
 * Annotation-Based Functional Interfaces
 * Singleton Pattern via Spring annotations. (@Service, @Component)
 * Immutable Data Class Pattern (via 'Record Class') 
+
+## Installation
+1) [Clone Repo ](https://github.com/Nesrinasan/courier-store-tracking-system)
+
+
+2) Run Docker-Compose file
+```programlama_dili
+docker-compose up
+```
+3) Run application
+
+```programlama_dili
+./mvnw spring-boot:run
+```
